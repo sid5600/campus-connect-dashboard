@@ -3,7 +3,7 @@ import ImpactChart from "./ImpactChart";
 
 export default function ImpactCard() {
     return (
-        <div className="mx-5 mt-8 rounded-2xl bg-[#0F2746] p-5">
+        <div className="mx-5 mt-8 rounded-2xl bg-brand-panel p-5">
 
             {/* Header */}
             <div className="mb-4 flex items-center justify-between">

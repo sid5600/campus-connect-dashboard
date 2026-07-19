@@ -33,12 +33,12 @@ export default function ImpactChart() {
                         >
                             <stop
                                 offset="0%"
-                                stopColor="#22C55E"
+                                stopColor="var(--brand-green)"
                                 stopOpacity={0.35}
                             />
                             <stop
                                 offset="100%"
-                                stopColor="#22C55E"
+                                stopColor="var(--brand-green)"
                                 stopOpacity={0}
                             />
                         </linearGradient>
@@ -47,7 +47,7 @@ export default function ImpactChart() {
                     <Area
                         type="monotone"
                         dataKey="value"
-                        stroke="#22C55E"
+                        stroke="var(--brand-green)"
                         strokeWidth={3}
                         fill="url(#impactGradient)"
                         dot={false}

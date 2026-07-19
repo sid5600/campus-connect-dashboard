@@ -7,6 +7,11 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-navy-hover: var(--brand-navy-hover);
+  --color-brand-panel: var(--brand-panel);
+  --color-brand-orange: var(--brand-orange);
+  --color-brand-green: var(--brand-green);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
@@ -51,6 +56,11 @@
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
+  --brand-navy: #081b33;
+  --brand-navy-hover: #102745;
+  --brand-panel: #0f2746;
+  --brand-orange: #c44a17;
+  --brand-green: #22c55e;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);

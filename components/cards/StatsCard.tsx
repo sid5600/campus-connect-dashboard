@@ -24,7 +24,7 @@ export default function StatsCard({
         <Card className="rounded-2xl px-5 py-4 shadow-md hover:shadow-lg transition">
             <div className="flex items-start gap-3">
                 <div
-                    className={`flex h-11 w-11 items-center justify-center rounded-full ${iconBg} flex-shrink-0`}
+                    className={`flex h-11 w-11 items-center justify-center rounded-full ${iconBg} shrink-0`}
                 >
                     <Icon className={valueColor} size={26} />
                 </div>

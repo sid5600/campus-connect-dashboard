@@ -16,7 +16,7 @@ export default function MobileDrawer() {
     <div className="md:hidden fixed inset-0 z-50">
       <div className="absolute inset-0 bg-black/40" onClick={() => setOpen(false)} />
 
-      <aside className="absolute left-0 top-0 bottom-0 w-72 bg-[#081B33] text-white p-4 overflow-y-auto">
+      <aside className="absolute left-0 top-0 bottom-0 w-72 bg-brand-navy text-white p-4 overflow-y-auto">
         <div className="flex items-center justify-between mb-6">
           <div>
             <h2 className="text-sm font-bold">Campus Connect</h2>
@@ -38,7 +38,7 @@ export default function MobileDrawer() {
                 href={item.href}
                 onClick={() => setOpen(false)}
                 className={`flex items-center gap-3 rounded-lg px-3 py-3 transition-colors ${
-                  active ? "bg-[#C44A17]" : "hover:bg-white/5"
+                  active ? "bg-brand-orange" : "hover:bg-white/5"
                 }`}
               >
                 <Icon size={18} />

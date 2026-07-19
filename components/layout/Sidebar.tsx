@@ -28,7 +28,7 @@ export default function Sidebar() {
                 "hidden md:flex flex-col",
                 "h-screen overflow-y-auto",
                 // colours
-                "bg-[#081B33] text-white",
+                "bg-brand-navy text-white",
                 // shadow when open
                 isOpen ? "shadow-2xl" : "",
                 // width transition
@@ -69,7 +69,7 @@ export default function Sidebar() {
                                 flex items-center gap-3 rounded-xl px-3 py-3
                                 transition-colors duration-150
                                 ${isActive
-                                    ? "bg-[#C44A17] text-white"
+                                    ? "bg-brand-orange text-white"
                                     : "hover:bg-white/10 text-white/80"
                                 }
                             `}

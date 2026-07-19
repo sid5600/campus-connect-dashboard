@@ -39,7 +39,7 @@ export default function ProTip() {
                 </div>
 
                 <Link href="/guide">
-                    <Button className="h-12 rounded-xl bg-[#081B33] px-8 hover:bg-[#102745]">
+                    <Button className="h-12 rounded-xl bg-brand-navy px-8 hover:bg-brand-navy-hover">
                         View Guide
                         <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
